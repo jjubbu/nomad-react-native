@@ -51,6 +51,20 @@ brew가 깔려 있다면 <code>brew install watchman</code>
     3. 받은 데이터를 토대로 자바스크립트가 이벤트를 실행, 혹은 ui 업데이트
     4. 3의 업데이트 혹은 자바스크립트가 실행된 결과를 리액트 네이티브가 ios/안드로이드에게 전달
     
+## 프로젝트 진행도
+
+1. 기본 셋팅
+- <code>expo init 프로젝트명칭</code>
+- 맨 위의 blank 템플릿 선택 후 엔터 
+- 설치 완료 후 <code>expo login</code>
+    - expo에 가입한 유저네임과 비밀번호 입력
+- 로그인 후 <code>yarn start</code> 혹은 <code>npm start</code>
+    - 만약 어플에서 프로젝트가 보여서 탭해도 네트워크 오류가 뜬다면 localhost:19002 에서 좌측하단 connection 을 Tunnel 로 바꾸고, 다시 어플로 들어가서 새로고침 후 새로 생긴 프로젝트 탭하면 됨.
+
+기본셋팅이 완료된 후 App.js 내용물을 변경하고 저장하면 바로바로 반영된다! 와~! 정말 좋아~
+
+
+    
 
 
 
